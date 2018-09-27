@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802F13F8215C165700C2F5BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F13F7215C165700C2F5BC /* AppDelegate.swift */; };
+		802F13FA215C165700C2F5BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F13F9215C165700C2F5BC /* ViewController.swift */; };
+		802F13FC215C165900C2F5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802F13FB215C165900C2F5BC /* Assets.xcassets */; };
+		802F13FF215C165900C2F5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802F13FD215C165900C2F5BC /* Main.storyboard */; };
+		802F140B215C165A00C2F5BC /* SimpleUnlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F140A215C165A00C2F5BC /* SimpleUnlockTests.swift */; };
+		802F1416215C165A00C2F5BC /* SimpleUnlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F1415215C165A00C2F5BC /* SimpleUnlockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		802F1407215C165A00C2F5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802F13EC215C165700C2F5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802F13F3215C165700C2F5BC;
+			remoteInfo = SimpleUnlock;
+		};
+		802F1412215C165A00C2F5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802F13EC215C165700C2F5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802F13F3215C165700C2F5BC;
+			remoteInfo = SimpleUnlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802F13F4215C165700C2F5BC /* SimpleUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802F13F7215C165700C2F5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		802F13F9215C165700C2F5BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		802F13FB215C165900C2F5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		802F13FE215C165900C2F5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		802F1400215C165900C2F5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802F1401215C165900C2F5BC /* SimpleUnlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleUnlock.entitlements; sourceTree = "<group>"; };
+		802F1406215C165A00C2F5BC /* SimpleUnlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleUnlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802F140A215C165A00C2F5BC /* SimpleUnlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUnlockTests.swift; sourceTree = "<group>"; };
+		802F140C215C165A00C2F5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802F1411215C165A00C2F5BC /* SimpleUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802F1415215C165A00C2F5BC /* SimpleUnlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUnlockUITests.swift; sourceTree = "<group>"; };
+		802F1417215C165A00C2F5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802F13F1215C165700C2F5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802F1403215C165A00C2F5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802F140E215C165A00C2F5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802F13EB215C165700C2F5BC = {
+			isa = PBXGroup;
+			children = (
+				802F13F6215C165700C2F5BC /* SimpleUnlock */,
+				802F1409215C165A00C2F5BC /* SimpleUnlockTests */,
+				802F1414215C165A00C2F5BC /* SimpleUnlockUITests */,
+				802F13F5215C165700C2F5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		802F13F5215C165700C2F5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802F13F4215C165700C2F5BC /* SimpleUnlock.app */,
+				802F1406215C165A00C2F5BC /* SimpleUnlockTests.xctest */,
+				802F1411215C165A00C2F5BC /* SimpleUnlockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		802F13F6215C165700C2F5BC /* SimpleUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				802F13F7215C165700C2F5BC /* AppDelegate.swift */,
+				802F13F9215C165700C2F5BC /* ViewController.swift */,
+				802F13FB215C165900C2F5BC /* Assets.xcassets */,
+				802F13FD215C165900C2F5BC /* Main.storyboard */,
+				802F1400215C165900C2F5BC /* Info.plist */,
+				802F1401215C165900C2F5BC /* SimpleUnlock.entitlements */,
+			);
+			path = SimpleUnlock;
+			sourceTree = "<group>";
+		};
+		802F1409215C165A00C2F5BC /* SimpleUnlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				802F140A215C165A00C2F5BC /* SimpleUnlockTests.swift */,
+				802F140C215C165A00C2F5BC /* Info.plist */,
+			);
+			path = SimpleUnlockTests;
+			sourceTree = "<group>";
+		};
+		802F1414215C165A00C2F5BC /* SimpleUnlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				802F1415215C165A00C2F5BC /* SimpleUnlockUITests.swift */,
+				802F1417215C165A00C2F5BC /* Info.plist */,
+			);
+			path = SimpleUnlockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802F13F3215C165700C2F5BC /* SimpleUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802F141A215C165A00C2F5BC /* Build configuration list for PBXNativeTarget "SimpleUnlock" */;
+			buildPhases = (
+				802F13F0215C165700C2F5BC /* Sources */,
+				802F13F1215C165700C2F5BC /* Frameworks */,
+				802F13F2215C165700C2F5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleUnlock;
+			productName = SimpleUnlock;
+			productReference = 802F13F4215C165700C2F5BC /* SimpleUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		802F1405215C165A00C2F5BC /* SimpleUnlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802F141D215C165A00C2F5BC /* Build configuration list for PBXNativeTarget "SimpleUnlockTests" */;
+			buildPhases = (
+				802F1402215C165A00C2F5BC /* Sources */,
+				802F1403215C165A00C2F5BC /* Frameworks */,
+				802F1404215C165A00C2F5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802F1408215C165A00C2F5BC /* PBXTargetDependency */,
+			);
+			name = SimpleUnlockTests;
+			productName = SimpleUnlockTests;
+			productReference = 802F1406215C165A00C2F5BC /* SimpleUnlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		802F1410215C165A00C2F5BC /* SimpleUnlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802F1420215C165A00C2F5BC /* Build configuration list for PBXNativeTarget "SimpleUnlockUITests" */;
+			buildPhases = (
+				802F140D215C165A00C2F5BC /* Sources */,
+				802F140E215C165A00C2F5BC /* Frameworks */,
+				802F140F215C165A00C2F5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802F1413215C165A00C2F5BC /* PBXTargetDependency */,
+			);
+			name = SimpleUnlockUITests;
+			productName = SimpleUnlockUITests;
+			productReference = 802F1411215C165A00C2F5BC /* SimpleUnlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802F13EC215C165700C2F5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Patricia Joseph";
+				TargetAttributes = {
+					802F13F3215C165700C2F5BC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					802F1405215C165A00C2F5BC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 802F13F3215C165700C2F5BC;
+					};
+					802F1410215C165A00C2F5BC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 802F13F3215C165700C2F5BC;
+					};
+				};
+			};
+			buildConfigurationList = 802F13EF215C165700C2F5BC /* Build configuration list for PBXProject "SimpleUnlock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802F13EB215C165700C2F5BC;
+			productRefGroup = 802F13F5215C165700C2F5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802F13F3215C165700C2F5BC /* SimpleUnlock */,
+				802F1405215C165A00C2F5BC /* SimpleUnlockTests */,
+				802F1410215C165A00C2F5BC /* SimpleUnlockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802F13F2215C165700C2F5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802F13FC215C165900C2F5BC /* Assets.xcassets in Resources */,
+				802F13FF215C165900C2F5BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802F1404215C165A00C2F5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802F140F215C165A00C2F5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802F13F0215C165700C2F5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802F13FA215C165700C2F5BC /* ViewController.swift in Sources */,
+				802F13F8215C165700C2F5BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802F1402215C165A00C2F5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802F140B215C165A00C2F5BC /* SimpleUnlockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802F140D215C165A00C2F5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802F1416215C165A00C2F5BC /* SimpleUnlockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		802F1408215C165A00C2F5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802F13F3215C165700C2F5BC /* SimpleUnlock */;
+			targetProxy = 802F1407215C165A00C2F5BC /* PBXContainerItemProxy */;
+		};
+		802F1413215C165A00C2F5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802F13F3215C165700C2F5BC /* SimpleUnlock */;
+			targetProxy = 802F1412215C165A00C2F5BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		802F13FD215C165900C2F5BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				802F13FE215C165900C2F5BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		802F1418215C165A00C2F5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		802F1419215C165A00C2F5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		802F141B215C165A00C2F5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleUnlock/SimpleUnlock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FrancesFlowers.SimpleUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		802F141C215C165A00C2F5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleUnlock/SimpleUnlock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FrancesFlowers.SimpleUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		802F141E215C165A00C2F5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FrancesFlowers.SimpleUnlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleUnlock.app/Contents/MacOS/SimpleUnlock";
+			};
+			name = Debug;
+		};
+		802F141F215C165A00C2F5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FrancesFlowers.SimpleUnlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleUnlock.app/Contents/MacOS/SimpleUnlock";
+			};
+			name = Release;
+		};
+		802F1421215C165A00C2F5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleUnlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FrancesFlowers.SimpleUnlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SimpleUnlock;
+			};
+			name = Debug;
+		};
+		802F1422215C165A00C2F5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleUnlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FrancesFlowers.SimpleUnlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SimpleUnlock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802F13EF215C165700C2F5BC /* Build configuration list for PBXProject "SimpleUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802F1418215C165A00C2F5BC /* Debug */,
+				802F1419215C165A00C2F5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802F141A215C165A00C2F5BC /* Build configuration list for PBXNativeTarget "SimpleUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802F141B215C165A00C2F5BC /* Debug */,
+				802F141C215C165A00C2F5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802F141D215C165A00C2F5BC /* Build configuration list for PBXNativeTarget "SimpleUnlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802F141E215C165A00C2F5BC /* Debug */,
+				802F141F215C165A00C2F5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802F1420215C165A00C2F5BC /* Build configuration list for PBXNativeTarget "SimpleUnlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802F1421215C165A00C2F5BC /* Debug */,
+				802F1422215C165A00C2F5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802F13EC215C165700C2F5BC /* Project object */;
+}
