@@ -1,2 +1,2 @@
 # SimpleUnlock
-A demo unlock code program
+A simple unlock program for demonstrating decompilation/reverse engineering techniques
